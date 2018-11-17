@@ -1,7 +1,7 @@
 <?php
 # Command Line
 
-	if($command=='.visimisi')
+	if($command=='./13959')
 	{
 		
 		
@@ -11,15 +11,11 @@
 								array(
 										'type' => 'text',					
 										'text' => '
-GREENCORE Club
-
-Visi : Mensejahterahkan anggota dengan semangat kompetitif, kreativitas dan inovatif
-
-Misi : 
-# Meningkatkan akhlakul karimah pada setiap anggota
-# Menciptakan suasana kekeluargaan
-# Menjunjung kepentingan bersama
-# Menumbuhkembangkan semangat kewirausahaan
+										Nama			:MUHAMMAD RIZKI SUKARNO
+										Kelas			:XI - MULTIMEDIA 
+										Jenis Kelamin	:Laki-laki
+										Satus			:Anggota Rohis
+										NIS				:13959
 '
 									)
 							)
