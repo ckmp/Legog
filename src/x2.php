@@ -11,11 +11,11 @@
 								array(
 										'type' => 'text',					
 										'text' => '
-										Nama			:MUHAMMAD RIZKI SUKARNO
-										Kelas			:XI - MULTIMEDIA 
-										Jenis Kelamin	:Laki-laki
-										Satus			:Anggota Rohis
-										NIS				:13959
+										Nama	:MUHAMMAD RIZKI SUKARNO
+										Kelas	:XI - MULTIMEDIA 
+										Gender	:Laki-laki
+										Satus	:Anggota Rohis
+										NIS	:13959
 '
 									)
 							)
