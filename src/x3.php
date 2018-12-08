@@ -1,55 +1,8 @@
 <?php
-# Command Line
+# db1 op1-20
 
-	if($command=='ui')
-	{
-		
-		
-		$balas = array(
-							'replyToken' => $replyToken,														
-							'messages' => array(
-								array(
-										'type' => 'text',					
-										'text' => '<p>&forall;</p>'
-									)
-							)
-						);
-				
-	}
-	else
-	if($command=='gc/db')
-	{
-		
-		
-		$balas = array(
-							'replyToken' => $replyToken,														
-							'messages' => array(
-								array(
-										'type' => 'text',					
-										'text' => 'Anggota Greencore ! :
-1. Alan    (PM)
-2. Arif      (PM)
-3. Dewa    (BC)
-4. Fadhil   (BC)
-5. Ikhwal  (AP)
-6. Nauval  (PM)
-7. Rangga (PM)
-8. Salman (AK)
-9. Septian (PM)
 
-Anggota Baru :
-1.
-2.
-3.
-...
-'
-									)
-							)
-						);
-				
-	}
-	else
-	if($command=='servtime')
+	if($command=='./13959')
 	{
 		
 		
@@ -58,15 +11,20 @@ Anggota Baru :
 							'messages' => array(
 								array(
 										'type' => 'text',					
-										'text' => 'Server : '.date("j F, Y, g:i a").'
-'.date("B u, e, T, Z, c")
+										'text' => '
+										Nama	:MUHAMMAD RIZKI SUKARNO
+										Jurusan	:MULTIMEDIA 
+										Gender	:Laki-laki
+										Jabatan	:Anggota Rohis
+										NIS		:13959
+'
 									)
 							)
 						);
 				
 	}
 	else
-	if($pesan_datang=='arif')
+	if($command=='./13962')
 	{
 		
 		
@@ -75,7 +33,12 @@ Anggota Baru :
 							'messages' => array(
 								array(
 										'type' => 'text',					
-										'text' => 'Arif, orangnya biasa, Jombs, suka bangat buku kambing conge
+										'text' => '
+										Nama	:PUTERI RUSMALINA
+										Jurusan	:MULTIMEDIA 
+										Gender	:Perempuan
+										Jabatan	:Anggota Rohis
+										NIS		:13962
 '
 									)
 							)
@@ -83,7 +46,7 @@ Anggota Baru :
 				
 	}
 	else
-	if($pesan_datang=='septian')
+	if($command=='./13979')
 	{
 		
 		
@@ -92,7 +55,12 @@ Anggota Baru :
 							'messages' => array(
 								array(
 										'type' => 'text',					
-										'text' => ''.$pesan_datang.', Belum ada deskripsi
+										'text' => '
+										Nama	:DEWA RAMADHANY
+										Jurusan	:BROADCAST 
+										Gender	:Laki-laki
+										Jabatan	:Anggota Rohis
+										NIS		:13979
 '
 									)
 							)
@@ -100,22 +68,356 @@ Anggota Baru :
 				
 	}
 	else
-	if($pesan_datang=='xc')
+	if($command=='./13981')
 	{
-						
-		$push = array(
-							'to' => 'Ub7432ba955730827b36f752bb15af71f',
-				'timestamp' => '1512757840',
-								'messages' => array(
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
 								array(
 										'type' => 'text',					
-										'text' => 'Pesan ini antspace.gq'
+										'text' => '
+										Nama	:DIVANDA EGA ZAHRA
+										Jurusan	:BROADCAST 
+										Gender	:Perempuan
+										Jabatan	:Anggota Rohis
+										NIS		:13981
+
+'
 									)
 							)
 						);
-						
+				
+	}
+	else
+	if($command=='./13995')
+	{
 		
-		$client->pushMessage($push);
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => '
+										Nama	:MUHAMMAD RIZKI FADHIL
+										Jurusan	:BROADCAST 
+										Gender	:Laki-laki
+										Jabatan	:Anggota Rohis
+										NIS		:13995
+'
+									)
+							)
+						);
+				
+	}
+	else
+	if($command=='./14000')
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => '
+										Nama	:PUTRI NAMIRA DEFANI
+										Jurusan	:BROADCAST 
+										Gender	:Perempuan
+										Jabatan	:Anggota Rohis
+										NIS		:14000
+'
+									)
+							)
+						);
+				
+	}
+	else
+	if($command=='./14003')
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => '
+										Nama	:SONIA RENATA
+										Jurusan	:BROADCAST 
+										Gender	:Perempuan
+										Jabatan	:Anggota Rohis
+										NIS		:14003
+'
+									)
+							)
+						);
+				
+	}
+	else
+	if($command=='./14004')
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => '
+										Nama	:SUMAYYAH NURUL IZZATI
+										Jurusan	:BROADCAST 
+										Gender	:Perempuan
+										Jabatan	:Anggota Rohis
+										NIS		:14004
+'
+									)
+							)
+						);
+				
+	}
+	else
+	if($command=='./14006')
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => '
+										Nama	:SYAFA NUR FAJRIYAH
+										Jurusan	:BROADCAST 
+										Gender	:Perempuan
+										Jabatan	:Anggota Rohis
+										NIS		:14006
+'
+									)
+							)
+						);
+				
+	}
+	else
+	if($command=='./14014')
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => '
+										Nama	:AJENG ANASTASYA NINGRUM
+										Jurusan	:AKUNTANSI 1
+										Gender	:Perempuan
+										Jabatan	:Anggota Rohis
+										NIS		:14014
+'
+									)
+							)
+						);
+				
+	}
+	else
+	if($command=='./14019')
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => '
+										Nama	:ANGGIT SAEPUL ANWAR
+										Jurusan	:AKUNTANSI 1
+										Gender	:Laki-laki
+										Jabatan	:Anggota Rohis
+										NIS		:14019
+'
+									)
+							)
+						);
+				
+	}
+	else
+	if($command=='./14036')
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => '
+										Nama	:HABIBAH ARSY MAJIDAH
+										Jurusan	:AKUNTANSI 1 
+										Gender	:Perempuan
+										Jabatan	:Anggota Rohis
+										NIS		:14036
+'
+									)
+							)
+						);
+				
+	}
+	else
+	if($command=='./14037')
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => '
+										Nama	:HAIDRA JIHAN AZZAHRA
+										Jurusan	:AKUNTANSI 1
+										Gender	:Perempuan
+										Jabatan	:Anggota Rohis
+										NIS		:14037
+'
+									)
+							)
+						);
+				
+	}
+	else
+	if($command=='./14041')
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => '
+										Nama	:INDAH PRATIWI NUR RAHMAWATI
+										Jurusan	:AKUNTANSI 1 
+										Gender	:Perempuan
+										Jabatan	:Anggota Rohis
+										NIS		:14041
+'
+									)
+							)
+						);
+				
+	}
+	else
+	if($command=='./14070')
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => '
+										Nama	:TIARA RAHMA DHANIA
+										Jurusan	:AKUNTANSI 2 
+										Gender	:Perempuan
+										Jabatan	:Anggota Rohis
+										NIS		:14070
+'
+									)
+							)
+						);
+				
+	}
+	else
+	if($command=='./14102')
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => '
+										Nama	:FADLY
+										Jurusan	:ADMINISTRASI PERKANTORAN 1 
+										Gender	:Laki-laki
+										Jabatan	:Anggota Rohis
+										NIS		:14102
+'
+									)
+							)
+						);
+				
+	}
+	else
+	if($command=='./14118')
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => '
+										Nama	:MUFLIHA DZAHABIYYAH
+										Jurusan	:ADMINISTRASI PERKANTORAN 2
+										Gender	:Perempuan
+										Jabatan	:Anggota Rohis
+										NIS		:14118
+'
+									)
+							)
+						);
+				
+	}
+	else
+	if($command=='./14132')
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => '
+										Nama	:OKTA ROS HAYUNI
+										Jurusan	:ADMINISTRASI PERKANTORAN 2
+										Gender	:Perempuan
+										Jabatan	:Anggota Rohis
+										NIS		:14132
+'
+									)
+							)
+						);
+				
+	}
+	else
+	if($command=='./14137')
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => '
+										Nama	:RAMADHAN RIZKI NOVRI P
+										Jurusan	:ADMINISTRASI PERKANTORAN 2
+										Gender	:Laki-laki
+										Jabatan	:Anggota Rohis
+										NIS		:14137
+'
+									)
+							)
+						);
 				
 	}
 
